@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session 10</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="weather">
+    <div class="container">
+      <div class="search py-5 mx-auto d-flex justify-content-center">
+        <div class="form w-75">
+          <i class="fa fa-search"></i>
+          <input type="search" id="searchBox" class="form-control form-input rounded-pill" placeholder="Search City...">
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-4 my-3">
+          <div class="today-weather-header shadow">
+            <p id="today">today</p>
+            <p id="todayDate">today Date</p>
+          </div>
+          <div class="today-weather-content shadow py-4">
+            <div class="location pb-3">
+              <p id="locationCity">Location</p>
+            </div>
+            <div class="weather-details d-flex justify-content-between pb-3">
+                <div>
+                  <h2 id="todayDegree" class="d-inline-block">29.5</h2>
+                  <h2 class="d-inline-block"><sup>o</sup>C</h2>
+                </div>
+                <div>
+                  <img id="todayIcon" class="today-icon">
+                </div>
+            </div>
+            <div class="py-3">
+              <p id="todayDescription" class="description">Sunny</p>
+            </div>
+            <div class="details">
+              <i class="fas fa-umbrella pr-1"></i>
+              <span id="humidty">36</span>
+              <i class="fas fa-wind pl-3 pr-1"></i>
+              <span id="wind">36</span>
+              <i class="far fa-compass pl-3 pr-1"></i>
+              <span id="compass">36</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3 text-center">
+          <div class="today-weather-header shadow">
+            <p class="next-day mx-auto">next day</p>
+          </div>
+          <div class="next-day-content shadow py-4">
+            <div class="pb-3">
+              <img class="next-day-icon">
+            </div>
+            <div class="pb-3">
+              <h2 class="next-day-max-degree d-inline-block">29.5</h2>
+              <h2 class="d-inline-block"><sup>o</sup>C</h2>
+            </div>
+            <div class="pb-3">
+              <h6 class="next-day-min-degree d-inline-block">29.5</h6>
+              <h6 class="d-inline-block"><sup>o</sup>C</h6>
+            </div>
+            <div class="py-3">
+              <p class="next-day-description description">Bla</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-3 text-center">
+          <div class="today-weather-header shadow">
+            <p class="next-day mx-auto">next day</p>
+          </div>
+          <div class="next-day-content shadow py-4">
+            <div class="pb-3">
+              <img class="next-day-icon">
+            </div>
+            <div class="pb-3">
+              <h2 class="next-day-max-degree d-inline-block">29.5</h2>
+              <h2 class="d-inline-block"><sup>o</sup>C</h2>
+            </div>
+            <div class="pb-3">
+              <h6 class="next-day-min-degree d-inline-block">29.5</h6>
+              <h6 class="d-inline-block"><sup>o</sup>C</h6>
+            </div>
+            <div class="py-3">
+              <p class="description next-day-description">Bla</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+              <p class="text-center text-white mb-0">Copyright &copy; 2022. All rights reserved</p>
+              <div class="social-media text-white text-center mt-2">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-linkedin"></i>
+              </div>
+    </div>
+    </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
